@@ -1,2 +1,2 @@
 # OCRPL
-An Interpreter written in Python for the OCR A Pseudocode.
+ An Interpreter designed to execute the OCR-A Computer Science Psuedocode.

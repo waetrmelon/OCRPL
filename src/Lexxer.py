@@ -106,10 +106,11 @@ class Tokenizer():
             self.AdvanceCharacter()
             self.GeneratedTokens.append(Token("NewLine", "\\n"))
             
-            print("-" * 25 + "\nFinished\n" + "-" * 25 )
+            print("-" * 25 + "\nFinished Lexical Analysis\n" + "-" * 25 )
 
         for token in self.GeneratedTokens:
             print(token)
+        return self.GeneratedTokens
 
 def Tokenize(Contents):
-    Tokenizer(Contents).LexicalAnalysis()
+    return Tokenizer(Contents).LexicalAnalysis()
